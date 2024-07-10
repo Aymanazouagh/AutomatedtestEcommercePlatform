@@ -1,0 +1,6 @@
+utils\CSVUtils.class
+pages\Checkoutpage.class
+pages\RegisterPage.class
+pages\AddToCart.class
+pages\LoginPage.class
+utils\DataInjectionIntern.class

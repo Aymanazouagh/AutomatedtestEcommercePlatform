@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T09:31:05 CEST" name="Suite" finished-at="2024-06-24T09:31:29 CEST" duration-ms="24492">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T09:31:05 CEST" name="RegisterTest" finished-at="2024-06-24T09:31:29 CEST" duration-ms="24492">
+      <class name="pagetest.LoginTest">
+        <test-method signature="loginPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:pagetest.LoginTest@54eb2b70]" started-at="2024-06-24T09:31:17 CEST" name="loginPageTest" data-provider="csvData" finished-at="2024-06-24T09:31:19 CEST" duration-ms="1999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ameni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mhamdi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amanimhamdi681@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234M???87]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234M???87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+      </class> <!-- pagetest.LoginTest -->
+      <class name="pagetest.CheckoutTest">
+        <test-method signature="checkoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:pagetest.CheckoutTest@63611043]" started-at="2024-06-24T09:31:22 CEST" name="checkoutTest" data-provider="userData" finished-at="2024-06-24T09:31:29 CEST" duration-ms="7475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Djerba]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Djerba15Km]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Djerba15Km]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[58687201]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[75879254]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+      </class> <!-- pagetest.CheckoutTest -->
+      <class name="pagetest.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pagetest.RegisterTest@43b9fd5]" started-at="2024-06-24T09:31:05 CEST" name="setUp" finished-at="2024-06-24T09:31:12 CEST" duration-ms="7323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pagetest.RegisterTest@43b9fd5]" started-at="2024-06-24T09:31:12 CEST" name="registerPageTest" data-provider="csvData" finished-at="2024-06-24T09:31:17 CEST" duration-ms="4569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ameni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mhamdi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amanimhamdi681@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234M???87]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234M???87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageTest -->
+      </class> <!-- pagetest.RegisterTest -->
+      <class name="pagetest.AddToCartTest">
+        <test-method signature="addToCartTest()[pri:3, instance:pagetest.AddToCartTest@45a37759]" started-at="2024-06-24T09:31:19 CEST" name="addToCartTest" finished-at="2024-06-24T09:31:22 CEST" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+      </class> <!-- pagetest.AddToCartTest -->
+    </test> <!-- RegisterTest -->
+  </suite> <!-- Suite -->
+</testng-results>
